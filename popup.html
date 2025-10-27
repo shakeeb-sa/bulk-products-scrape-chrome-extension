@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopify Exporter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Exporter</h1>
+        <p>Click the button to extract products from the current Shopify site.</p>
+        <button id="extractBtn">Extract Products to Excel</button>
+        <p id="status" class="status-message"></p>
+    </div>
+    <!-- IMPORTANT: Load the libraries first, then your script -->
+    <script src="lib/xlsx.full.min.js"></script>  <!-- Load SheetJS library first -->
+    <script src="lib/xlsx.full.min.js"></script>
+<script src="popup.js"></script>  <!-- Then load your own JavaScript -->
+</body>
+</html>
